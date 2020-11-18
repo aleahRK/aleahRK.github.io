@@ -1,0 +1,99 @@
+body {
+    background-image: url("water.gif"); 
+    /* background credits: 
+    https://giphy.com/gifs/itstheflashpack-iridescent-the-flash-pack-l1V4CV3IQB4NcG45Ac */
+}
+
+
+h1{
+    font-family: 'sunrise_international_demoRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:rgb(61, 22, 124);
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'sunrise_international_demoRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:rgb(61, 22, 124);
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    font-family: 'sunrise_international_demoRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    background-color: rgb(61, 22, 124);
+    -webkit-appearance: button;
+    /*text-align: center;
+    font-size: 8em; */ 
+}
+
+/*button2 {background-color: rgb(61, 22, 124)}; /* Purple */
+/*button3 {background-color: rgb(61, 22, 124)}; /* Purple */
+/*button4 {background-color: rgb(61, 22, 124)}; /* Purple */
+/*button5 {background-color: rgb(61, 22, 124)};  Purple */
+
+p {
+    font-family: 'sunrise_international_demoRg', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:rgb(61, 22, 124);
+    font-size: 8em;
+    text-align: center;
+}
+
+
+img {
+    
+    height: 200px;
+    width: 200px;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.flex-parent {
+        display: flex;
+      }
+      
+.jc-center {
+        justify-content: center;
+      }
+      
+button.margin-right {
+        margin-right: 20px;
+      }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19%;
+      }
+
+.audio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center 
+      }
+
+video {
+    display: block;
+    margin: 0 auto;
+}
